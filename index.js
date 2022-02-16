@@ -60,6 +60,6 @@ app.get("/json", (req, res) => {
   res.send(phrasejson)
 });
 
-app.listen(3010, () => {
+app.listen(3000, () => {
   console.log("server started");
 });
