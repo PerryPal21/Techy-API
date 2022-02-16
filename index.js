@@ -60,6 +60,8 @@ app.get("/json", (req, res) => {
   res.send(phrasejson)
 });
 
-app.listen(3000, () => {
+port = process.env.PORT || 80
+
+app.listen(port, () => {
   console.log("server started");
 });
